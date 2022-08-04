@@ -17,10 +17,9 @@
 }
 
 .hovering{
-   transition:1s;
+   transition: .5s;
 }
-
 .hovering:hover{
    font-size: 20px;
-   transition: 1s;
+   transition: .5s;
 }
