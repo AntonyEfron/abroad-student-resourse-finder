@@ -1,8 +1,5 @@
-const loadText = document.querySelector('#greet')
 const logos = document.querySelector('#logo')
-const logo = document.querySelector('.logo')
-//const bg = document.querySelector('.background')
-//const collegeName = document.querySelector('.college-name')
+
 let load = 0
 
 let int = setInterval(blurring, 80)
@@ -12,7 +9,6 @@ function blurring() {
      clearInterval (int)
   }
    // loadText.innerText = `${load}`
-   loadText.style.opacity = scale(load, 0, 100, 0, 1)
    logos.style.opacity = scale(load, 0, 100, 0, 1)
    //bg.style.filter = blur(${scale(load,0 ,100, 30, 0)}px)
    //collegeName.style.opacity = scale(load, 0, 100, 0, 1)
