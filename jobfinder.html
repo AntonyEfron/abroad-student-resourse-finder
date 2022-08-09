@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universities</title>
+    <title>Job Finder</title>
     <!-- bootsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <!-- css -->
     <link rel="stylesheet" href="indexcss.css">
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -33,7 +33,19 @@
           </div>
         </header>
       </div>
-      <!-- Course selection button -->
+      <!-- Part Time & Full Time Selection checkbuttons-->
+      <section class="container ">
+        <div style="width: 100%; max-width:400px;" class="d-f justify-content-center ms-auto me-auto m-5">
+            <center>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" >
+                <label class="btn btn-outline-dark" for="success-outlined">Part-Time</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                <label class="btn btn-outline-dark" for="danger-outlined">Full-Time</label>
+              </center>
+        </div>
+      </section>
+
+      <!-- Universities selection button -->
       <section class=" m-5 d-flex justify-content-center">
         <div class="container">
           <div class="row mx-auto justify-content-center" style="width: 100%; max-width:400px;" >
@@ -41,7 +53,7 @@
             <div class="col-md-8 col-sm-12 d-flex justify-content-center" >
               <main class=" d-flex " style="width: 100%; max-width:400px;">
                 <select class="form-select" aria-label="Default select example"  >
-                  <option selected>Select Your Course</option>
+                  <option selected>Select Your University</option>
                   <option value="1">ab</option>
                   <option value="2">rt</option>           
                   <option value="3">uf</option>
@@ -57,17 +69,18 @@
           </div>        
       </div>
        </section>
+
        <center>
         <div>
-          <p style="font-family: 'DM Sans', sans-serif;">Based on Your course Selection, universities are Listing Blow..</p>
+          <p style="font-family: 'DM Sans', sans-serif;">Based on Your Detials, jobs nearby are Listing Blow..</p>
         </div>
        </center>
+      
+
 
 
 
     
-
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
