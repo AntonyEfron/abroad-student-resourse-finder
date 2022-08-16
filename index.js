@@ -1,4 +1,4 @@
-const loadText = document.querySelector('#greet')
+const loadText = document.querySelector('.textrise')
 const logos = document.querySelector('#logo')
 const logo = document.querySelector('.logo')
 //const bg = document.querySelector('.background')
